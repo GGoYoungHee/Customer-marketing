@@ -1,7 +1,7 @@
 # Current_Project
 
 - 아마도 텍스트 마이닝을 해야할 것 같아... (NLP를 본격적으로 해보자)
-- 간만에 크롤링하기
+- 간만에 크롤링하기~!! 헤헤헤 재밌당
 
 # TIL
 1. ConnectionError: ('Connection aborted.', OSError("(10054, 'WSAECONNRESET')")) \*07.13 
