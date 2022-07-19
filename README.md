@@ -7,6 +7,7 @@
 - 아마도 텍스트 마이닝을 해야할 것 같아... (NLP를 본격적으로 해보자)
 - 간만에 크롤링하기~!!
 - 음,, 기본적인 분석 파이프라인을 짜보자!!! 머리야 돌아가라아아ㅏㅇ
+- 
 
 # TIL
 1. ConnectionError: ('Connection aborted.', OSError("(10054, 'WSAECONNRESET')")) \*07.13 
