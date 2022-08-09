@@ -22,3 +22,9 @@
     - requests에서 header옵션을 준다. User-Agent에서 Mozilla/5.0으로 변경하는 코드 삽입
     - `re=requests.get(url,header={'User-Agent':'Mozilla/5.0'})`
     - 크롤링할 페이지의 html 파일을 보고, 가장 상위에 있는 `data-useragent` 확인 후, header 딕셔너리 User-Agent키에 해당하는 값으로 넣는다.
+
+2. While 문 \*08.09
+- while 문은 되도록이면 쓰지 말자
+- 약 500만개의 데이터를 돌려보면서, while 문을 넣어봤는데 아니 26줄짜리 코드가 2시간이 지나도 output이 안나왔다.
+- 처음에는 데이터가 많아서 그런 줄알았는데, while문은 현업에서 쓰이지 않는 다는 이야기를 들었다.
+- for if 문으로 바꿔서 구현하기~!
