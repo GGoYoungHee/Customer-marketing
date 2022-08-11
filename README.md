@@ -19,6 +19,10 @@
 - 2번을 선택함으로써 FE를 더 풍부하게 할 수 있었다. 횡단자료는보통 FE를 할 때, 같은 행에서만 진행하지만(혹은 통계량을 위해 전체 row를 사용하기도 하지만), 종단자료의 FE는 lag변수를 추가할 수 있었다. 현재 row의 시간보다 이전에 있는 데이터의 통계량을 사용해 시차 변수를 만들고, 이를 데이터 분석에 활용해보았다.
 
 
+-data leakage issue
+
+
+
 # TIL
 1. ConnectionError: ('Connection aborted.', OSError("(10054, 'WSAECONNRESET')")) \*07.13 
   - 원인
